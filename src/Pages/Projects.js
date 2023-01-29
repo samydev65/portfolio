@@ -1,9 +1,10 @@
+import React from 'react';
 import "../Styles/projects.css";
 
 export default function Projects() {
     return (
-        <div className="container">
-          <h1 className="project-title">none yet</h1>
+        <div className="project-grid">
+            <a href="https://github.com/samydev65/portfolio"><img alt="" src="https://gh-card.dev/repos/samydev65/portfolio.svg?fullname="></img></a>
         </div>
-      );
+    );
 }
