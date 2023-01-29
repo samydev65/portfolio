@@ -8,49 +8,43 @@
     text-align: center;
     height: 88.6vh;
   }
-  
+
   .about-text {
     flex: 1 1 100%;
     margin: 20px 0;
     font-size: 60px;
   }
-  
+
   .about-image-container {
     flex: 1 1 100%;
     margin: 20px 0;
   }
-  
+
   .about-image {
     border-radius: 50%;
     width: 200px;
     height: 200px;
   }
-  
+
   .about-social-container {
+    flex: 1 1 100%;
+    margin: 20px 0;
     display: flex;
     justify-content: center;
-    align-items: center;
-    bottom: 0;
-    width: 100%;
-    margin: 20px 0;
-    flex: 1 1 100%;
- }
- 
-  
+  }
+
   .about-social-icon {
     font-size: 36px;
-    margin: 0 36px;
+    margin: 0 10px;
     color: #333;
   }
-  
+
   .about-email-container {
     position: relative;
+    display: inline-block;
     cursor: pointer;
-    display: flex;
-    justify-content: center;
-    align-items: center;
   }
-  
+
   .about-email {
     position: absolute;
     top: 790px;
