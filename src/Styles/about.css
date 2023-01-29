@@ -27,11 +27,15 @@
   }
   
   .about-social-container {
-    flex: 1 1 100%;
-    margin: 20px 0;
     display: flex;
     justify-content: center;
-  }
+    align-items: center;
+    bottom: 0;
+    width: 100%;
+    margin: 20px 0;
+    flex: 1 1 100%;
+ }
+ 
   
   .about-social-icon {
     font-size: 36px;
@@ -41,8 +45,10 @@
   
   .about-email-container {
     position: relative;
-    display: inline-block;
     cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   
   .about-email {
