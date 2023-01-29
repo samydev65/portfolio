@@ -7,8 +7,6 @@
     justify-content: center;
     text-align: center;
     height: 88.6vh;
-    opacity: 0;
-    transition: opacity 1s;
   }
 
   .about-text {
@@ -66,8 +64,4 @@
       z-index: -1;
         margin-top: -200px;
     }
-}
-
-.fade-in {
-  opacity: 1;
 }

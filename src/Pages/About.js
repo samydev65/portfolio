@@ -12,13 +12,13 @@ const About = () => {
 
   return (
     <div className={`about-container ${fadeIn ? 'fade-in' : ''}`}>
-      <div className="about-image-container">
+      <div className="about-image-container animate__animated animate__fadeInDown">
         <img src={profileImage} alt="" className="about-image"/>
       </div>
-      <div className="about-text">
+      <div className="about-text animate__animated animate__zoomInUp">
         <p>I dabble in coding</p>
       </div>
-      <div className="about-social-container">
+      <div className="about-social-container animate__animated animate__fadeIn">
       <a href='https://github.com/samydev65' target='_blank' rel='noreferrer noopener'>
   <i className="fab fa-github about-social-icon"></i>
     </a>
