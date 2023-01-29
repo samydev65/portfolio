@@ -9,3 +9,9 @@
 a {
     width: 100px;
 }
+
+@media only screen and (max-width: 480px) {
+    .project-grid img {
+        width: 330px; /* or any other desired width */
+    }
+}
