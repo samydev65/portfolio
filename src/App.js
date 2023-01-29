@@ -9,6 +9,7 @@ import { Route, Routes} from "react-router-dom"
 function App() {
 
 	return (
+		<Router basename="/portfolio">
 		<>
 		
 			<Navbar/>
@@ -26,6 +27,7 @@ function App() {
 
 
 			</>
+			</Router>
 	)
 
 }
