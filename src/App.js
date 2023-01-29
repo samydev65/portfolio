@@ -1,21 +1,20 @@
 import React from 'react';
 import Navbar from "./Components/Navbar";
-import Home from "./Pages/Portfolio"
+import Portfolio from "./Pages/Portfolio"
 import About from "./Pages/About"
 import Projects from './Pages/Projects';
-import { Route, Routes, Router} from "react-router-dom"
+import { Route, Routes} from "react-router-dom"
 
 
 function App() {
 
 	return (
-		<Router basename="/portfolio">
 		<>
 		
 			<Navbar/>
 			<div className='container'>
-			<Routes>
-				<Route path ="/portfolio" element={<Home />} />
+			<Routes basename="/portfolio">
+				<Route path ="/portfolio" element={<Portfolio />} />
 				<Route path ="/about" element={<About />} />
 				<Route path ="/projects" element={<Projects />} />
 
@@ -27,7 +26,6 @@ function App() {
 
 
 			</>
-			</Router>
 	)
 
 }

@@ -1,9 +1,9 @@
 import React from 'react';
-import "../Styles/Portfolio.css";
+import "../Styles/portfolio.css";
 import { Link } from "react-router-dom"
 
 
-function Portfolio() {
+function Portfiolio() {
   return (
     <div className="background">
   <div>
@@ -16,4 +16,4 @@ function Portfolio() {
   );
 }
 
-export default Portfolio;
+export default Portfiolio;
