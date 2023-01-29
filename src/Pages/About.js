@@ -1,12 +1,17 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import "../Styles/about.css";
 import profileImage from "../Styles/s.png";
 
 const About = () => {
   const [showEmail, setShowEmail] = useState(false);
+  const [fadeIn, setFadeIn] = useState(false);
+
+  useEffect(() => {
+    setFadeIn(true);
+  }, []);
 
   return (
-    <div className="about-container">
+    <div className={`about-container ${fadeIn ? 'fade-in' : ''}`}>
       <div className="about-image-container">
         <img src={profileImage} alt="" className="about-image"/>
       </div>

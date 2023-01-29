@@ -7,6 +7,8 @@
     justify-content: center;
     text-align: center;
     height: 88.6vh;
+    opacity: 0;
+    transition: opacity 1s;
   }
 
   .about-text {
@@ -35,7 +37,7 @@
 
   .about-social-icon {
     font-size: 36px;
-    margin: 0 10px;
+    margin: 0 30px;
     color: #333;
   }
 
@@ -50,10 +52,22 @@
     top: 790px;
     left: 50%;
     transform: translateX(-50%);
-    margin-top: 10px;
+    margin-top: 1px;
     font-size: 18px;
     color: #333;
     background: white;
     padding: 4px 8px;
     border-radius: 4px;
+    z-index: -1;
   }
+
+  @media only screen and (max-width: 480px) {
+    .about-email {
+      z-index: -1;
+        margin-top: -200px;
+    }
+}
+
+.fade-in {
+  opacity: 1;
+}
