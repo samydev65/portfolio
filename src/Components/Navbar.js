@@ -13,9 +13,9 @@ function Navbar() {
 
 	return (
 		<header>
-			<CustomLink to="/"><h3>samy</h3></CustomLink>
+			<CustomLink to="/portfolio"><h3>samy</h3></CustomLink>
 			<nav ref={navRef}>
-				<CustomLink to="/">Home</CustomLink>
+				<CustomLink to="/portfolio">Home</CustomLink>
 				<CustomLink to="/about">About</CustomLink>
 				<CustomLink to="/projects">Projects</CustomLink>
 				<button
