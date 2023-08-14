@@ -6,5 +6,8 @@ export default function Projects() {
         <div className="project-grid animate__animated animate__backInUp">
             <a href="https://github.com/samydev65/portfolio"><img alt="" src="https://gh-card.dev/repos/samydev65/portfolio.svg?fullname="></img></a>
         </div>
+        <div className="project-grid animate__animated animate__backInUp">
+            <a href="https://github.com/samydev65/portfolio"><img alt="" src="https://gh-card.dev/repos/samydev65/downloads.svg?fullname="></img></a>
+        </div>
     );
 }
