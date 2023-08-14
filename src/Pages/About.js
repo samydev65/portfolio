@@ -19,13 +19,15 @@ const About = () => {
         <p>I dabble in coding</p>
       </div>
       <div className="about-social-container animate__animated animate__fadeIn">
-      <a href='https://github.com/samydev65' target='_blank' rel='noreferrer noopener'>
-  <i className="fab fa-github about-social-icon"></i>
-    </a>
+        <a href='https://github.com/samydev65' target='_blank' rel='noreferrer noopener'>
+          <i className="fab fa-github about-social-icon"></i>
+        </a>
         <a href='https://www.youtube.com/@samydev65' target='_blank' rel='noreferrer noopener'>
-  <i className="fab fa-youtube about-social-icon"></i>
-    </a>
-        <i className="fas fa-envelope about-social-icon" onClick={() => setShowEmail(!showEmail)}></i>
+          <i className="fab fa-youtube about-social-icon"></i>
+        </a>
+        <a href={`mailto:samy.dev65@gmail.com`} target='_blank' rel='noreferrer noopener'>
+          <i className="fas fa-envelope about-social-icon"></i>
+        </a>
         {showEmail && <p className="about-email">samy.dev65@gmail.com</p>}
       </div>
     </div>
